@@ -23,7 +23,8 @@ bool isMatch(char* c1, char* c2){
 int main(){
 	int num = 52;
 	
-
+	std::ios::sync_with_stdio(false);
+    std::cin.tie(0);
 	while(true){
 		bool end_of_game = false;;
 		std::vector<std::stack<char*> > piles;

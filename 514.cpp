@@ -6,6 +6,8 @@
 
 int main(){
 	int num;
+	std::ios::sync_with_stdio(false);
+    std::cin.tie(0);
 	while(true){
 		std::cin >> num;
 		if(num == 0) break;
