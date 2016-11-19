@@ -2,17 +2,16 @@
 #include <stack>
 #include <vector>
 
-/*
-Author Marcus Adamsson
-*/
 
-/*
-My solutions to https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=63
-/*
+// Author Marcus Adamsson
 
-/*
-Check if the cards are a match.
-*/
+
+
+// My solutions to https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=63
+
+
+
+//Check if the cards are a match.
 bool isMatch(char* c1, char* c2){
 
 	if(c1[0] == c2[0]) return true;
@@ -29,9 +28,8 @@ int main(){
 		bool end_of_game = false;;
 		std::vector<std::stack<char*> > piles;
 
-		/*
-		Read in each card deck
-		*/
+		
+		// Read in each card deck
 		for(int j = 0; j != 52; j++){
 			char* card = new char[2];
 			std::cin >> card;
@@ -44,10 +42,9 @@ int main(){
 			new_stack.push((card));
 			piles.push_back(new_stack);
 
-			/*
-			While it's possible to move a card to left
-			do it.
-			*/
+			
+			// While it's possible to move a card to left
+			// do it.
 			while(true){
 				bool moved = false;
 				for(int i = 1; i < piles.size(); i++){
