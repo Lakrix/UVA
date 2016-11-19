@@ -2,6 +2,13 @@
 #include <stack>
 #include <vector>
 
+/*
+Author Marcus Adamsson
+*/
+
+/*
+My solutions to https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=63
+/*
 
 /*
 Check if the cards are a match.
