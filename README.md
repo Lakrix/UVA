@@ -14,3 +14,6 @@ UVa 11034 - Ferry Loading IV <br />
 
 STL <map>/<set> <br />
 UVa 10226 - Hardwood Species <br/>
+UVa 11239 - Open Source <br />
+UVa 11308 - Bankrupt Baker <br/ >
+UVa 11136 - Hoax or what <br/>
