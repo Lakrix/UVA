@@ -12,7 +12,7 @@ UVa 336 - A Node Too Far <br />
 UVa 10901 - Ferry Loading III <br />
 UVa 11034 - Ferry Loading IV <br />
 
-STL <map>/<set> <br />
+STL map set <br />
 UVa 10226 - Hardwood Species <br/>
 UVa 11239 - Open Source <br />
 UVa 11308 - Bankrupt Baker <br/ >
