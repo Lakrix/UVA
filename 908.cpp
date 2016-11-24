@@ -34,6 +34,7 @@ void remove(std::list<Edge*>* neighbor_list,int v){
 		}
 	}
 }
+
 /*
 Init graph with the given input
 */
