@@ -2,6 +2,10 @@
 #include <iostream>
 #include <vector>
 
+/**
+Author: Marcus Adamsson
+Problem: https://uva.onlinejudge.org/external/5/514.pdf
+**/
 
 
 int main(){

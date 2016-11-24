@@ -5,6 +5,11 @@
 #include <algorithm>
 #include <vector>
 
+/**
+Author: Marcus Adamsson
+Problem: https://uva.onlinejudge.org/external/111/11136.pdf
+**/
+
 /*
 Used to sort the result
 */

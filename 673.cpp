@@ -1,10 +1,10 @@
-/*
-Author Marcus Adamsson
-*/
-
-// Problem: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=8&page=show_problem&problem=614
 #include <iostream>
 #include <stack>
+/*
+Author Marcus Adamsson
+Problem: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=8&page=show_problem&problem=614
+*/
+ 
 
 // Check if it's a correct balanced string.
 bool solve(std::string line){
