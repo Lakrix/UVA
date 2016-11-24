@@ -15,8 +15,8 @@ struct Edge{
 	int cost;
 };
 
-// Compare if the cost of the edges. Used 
-// in priority queue.
+// Compare the cost of the edges.
+// Used in priority queue.
 struct Comparator {
     bool operator()(const Edge* a, const Edge* b)
     {
@@ -25,7 +25,7 @@ struct Comparator {
 };
 
 
-// Remove edges from graph
+// Remove edges from the graph.
 void remove(std::list<Edge*>* neighbor_list,int v){
 	for(int i = 1; i != v+1; i++){
 		while(!neighbor_list[i].empty()){
@@ -35,9 +35,8 @@ void remove(std::list<Edge*>* neighbor_list,int v){
 	}
 }
 
-/*
-Init graph with the given input
-*/
+
+// Init graph with the given input
 void init(std::list<Edge*>* neighbor_list, int e){
 	int from;
 	int to;
@@ -49,6 +48,7 @@ void init(std::list<Edge*>* neighbor_list, int e){
 	}
 }
 
+// Function to print result
 void print_graph(std::list<Edge*>* neighbor_list,int v){
 	for(int i = 1; i != v+1; i++){
 		for(auto it = neighbor_list[i].begin(); it != neighbor_list[i].end(); it++){
@@ -56,10 +56,9 @@ void print_graph(std::list<Edge*>* neighbor_list,int v){
 		}
 	}
 }
-std::vector<int> pSet(1000);
 
 // Union Find to help kruskal detect cycles.
-
+std::vector<int> pSet(1000);
 int findSet(int i){
 	if(i != pSet[i]) return findSet(pSet[i]);
 	return i;
@@ -81,7 +80,7 @@ void initSet(int size){
 
 
 // Kruskal algorithm using a priority queue 
-// based on cost of the edges. Using usion find to
+// based on cost of the edges. Using union find to
 // detect if adding an edges creates a cycle in the graph.
 void kruskal(std::list<Edge*>* neighbor_list,int e,int v){
 
@@ -107,7 +106,7 @@ void kruskal(std::list<Edge*>* neighbor_list,int e,int v){
     std::cout << total << std::endl;
 }
 
-// count the cost of the MST.
+// Count the cost of the MST.
 void count_network(std::list<Edge*>* neighbor_list,int v){
 	int total = 0;
 	for(int i = 1; i != v+1; i++){
