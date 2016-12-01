@@ -18,5 +18,11 @@ UVa 11239 - Open Source <br />
 UVa 11308 - Bankrupt Baker <br/ >
 UVa 11136 - Hoax or what <br/>
 
-C++ STL priority queue in <queue>
-UVa 908 - Re-connecting Computer Sites
+C++ STL priority queue in <queue> <br />
+UVa 908 - Re-connecting Computer Sites <br/>
+
+Graph <br/>
+UVa 291 - The House Of Santa Claus. <br/>
+UVa 10928 - My Dear Neighbours <br/>
+
+Union-find Disjoint Sets <br/>
