@@ -26,4 +26,6 @@ UVa 291 - The House Of Santa Claus. <br/>
 UVa 10928 - My Dear Neighbours <br/>
 
 Union-find Disjoint Sets <br/>
-UVa 459 - Graph Connectivity
+UVa 459 - Graph Connectivity <br/>
+UVa 739 - Network Connections <br/>
+UVa 11503 - Virtual Friends <br/>
